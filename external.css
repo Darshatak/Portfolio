@@ -1,0 +1,80 @@
+section{
+     border-style: groove; background-image:url(bg.jpg) 
+}
+
+div{
+    border-style: groove; background-image: url(bg.jpg)
+}
+
+header>h1{
+    color: deeppink!important; font-weight: bold; font-family: "Copperplate Gothic"; font-size: 30px
+}
+/*Here we have use the property Impotant that no one can override the tag. */
+marquee{
+    color: yellow; font-weight: bold; 
+}
+
+nav{
+   border-top-style: ridge; border-bottom-style:ridge
+}
+
+div>u{
+    color: sandybrown; font-family:"Copperplate Gothic";
+    font-size: 20px
+}
+/* This IS Child Selector
+which means can give effect only to this kind of tag
+<u>                                   <--This is parent
+    <h2 align="center">Articles</h2>  <--This Is Child
+</u>
+*/
+
+/*
+  This is a Adjacent Sibling selector
+which gave effect to specific tag irrespective of other tag on same line.like this,
+<u>
+    <h2 align="center">Articles</h2>
+</u>
+<dt>Fake Text</dt>
+
+*/
+
+div{
+    color:aqua
+}
+div b{
+    font-weight: bold; color: aqua;
+}
+
+div>dd{
+     color:white;font-size-adjust: auto; font-style: italic; font-family:"Segoe UI Black"
+}
+
+
+footer>pre{
+    text-align: center; color: black; font-weight: lighter;
+     font-family: "Copperplate Gothic"; font-size: 15px
+}
+
+footer p{
+    text-align: center; color: black; font-weight: bold; font-family: "Copperplate Gothic"; font-size: 12px
+}
+/*This Is Decendeend Selector
+By this you can add effect on any tag.
+best example is body Tag
+
+*/
+
+a:link{
+    color: orange
+}
+a:visited{
+    color: deeppink
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: grey
+}
+/*This is pseudo class and elements */
